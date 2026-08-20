@@ -2,9 +2,11 @@
  * @Author: LetMeFly
  * @Date: 2026-08-19 12:11:50
  * @LastEditors: LetMeFly.xyz
- * @LastEditTime: 2026-08-20 10:45:28
+ * @LastEditTime: 2026-08-20 10:47:51
 -->
 # Edit by DoubleClick
+
+> 【HTML】双击编辑字段并定位到双击的位置
 
 一个轻量的文件名编辑组件，使用原生 JavaScript，无需任何依赖。
 
