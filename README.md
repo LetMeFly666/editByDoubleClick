@@ -2,7 +2,7 @@
  * @Author: LetMeFly
  * @Date: 2026-08-19 12:11:50
  * @LastEditors: LetMeFly.xyz
- * @LastEditTime: 2026-08-20 10:51:52
+ * @LastEditTime: 2026-08-20 10:58:32
 -->
 # Edit by DoubleClick
 
@@ -73,4 +73,16 @@ new FileNameEditor(document.querySelector("#file"), {
 
 [在线地址](https://editByDoubleClick.LetMeFly.xyz/) · [Github地址](https://github.com/LetMeFly666/editByDoubleClick)
 
-vibe coding · 版权所无
+<details><summary>vibe coding · 版权所无</summary>
+
+你设计一个功能 (HTML)：
+大概300px长，显示一个文件名（可能会好多行那种）、显示一个文件大小的span，显示一个修改图标（✏️）
+可以点击✏️修改文件名，重点在：
+也可以双击文件名来修改文件名。
+点击修改框的其他位置完成编辑，但是切换到其他页面失去focus的时候不算（可能人家切其他位置复制文件名回来发现光标没了）
+如果有过光标定位，再次点击修改按钮而非双击导致修改时，仍然定位到上次结束修改时光标的位置
+
+提示：千万不要算光标定位，各种字体中英文emoji还有各种style，你算不对的
+你可能需要增加许多看不到的元素来辅助定位，甚至每个字上都需要设置click事件
+
+</details>

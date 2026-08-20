@@ -1,3 +1,9 @@
+/*
+ * @Author: LetMeFly + Codex
+ * @Date: 2026-08-19 12:14:35
+ * @LastEditors: LetMeFly.xyz
+ * @LastEditTime: 2026-08-20 10:57:47
+ */
 class FileNameEditor {
     constructor(el, options = {}) {
         this.el = el;
