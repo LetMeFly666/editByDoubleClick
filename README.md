@@ -2,7 +2,7 @@
  * @Author: LetMeFly
  * @Date: 2026-08-19 12:11:50
  * @LastEditors: LetMeFly.xyz
- * @LastEditTime: 2026-08-20 10:47:51
+ * @LastEditTime: 2026-08-20 10:51:52
 -->
 # Edit by DoubleClick
 
@@ -25,7 +25,7 @@
 引入 `main.js`：
 
 ```html
-<script src="./main.js"></script>
+<script src="https://editByDoubleClick.LetMeFly.xyz/main.js"></script>
 ```
 
 准备一个容器：
@@ -70,5 +70,7 @@ new FileNameEditor(document.querySelector("#file"), {
 组件本身不依赖任何框架，直接引入 `main.js` 即可使用。
 
 ---
+
+[在线地址](https://editByDoubleClick.LetMeFly.xyz/) · [Github地址](https://github.com/LetMeFly666/editByDoubleClick)
 
 vibe coding · 版权所无
