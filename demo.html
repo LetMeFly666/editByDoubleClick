@@ -1,0 +1,61 @@
+<!--
+ * @Author: LetMeFly
+ * @Date: 2026-08-19 12:14:59
+ * @LastEditors: LetMeFly.xyz
+ * @LastEditTime: 2026-08-19 12:20:43
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>FileNameEditor Demo</title>
+
+    <style>
+        .fne-box {
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 12px;
+        }
+
+        .fne-name {
+            min-height: 40px;
+            word-break: break-all;
+        }
+
+        .fne-name.editing {
+            outline: 1px solid #409eff;
+        }
+
+        .fne-info {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .fne-edit {
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="file"></div>
+
+    <script src="./main.js"></script>
+    <script>
+        new FileNameEditor(document.querySelector("#file"), {
+            filename: "测试文件😀very_long_name_example这是一个测试45545465456456.txt",
+            size: "12.5 MB",
+            onChange(name) {
+                console.log(name);
+            }
+        });
+    </script>
+
+</body>
+
+</html>
